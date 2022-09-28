@@ -13,10 +13,10 @@ while True:
         #check if number of elements is even or odd
         if length %2 == 0: #it is even number of elements
             median = (sorted_number[length //2 - 1] + sorted_number[length // 2 ]) /2
-            print(f'{median}')   
+            #print(f'{median}')   
         else: #it is odd number of elements
             median = sorted_number[length //2] 
-            print(f'{median}')      
+            #print(f'{median}')      
         
     except ValueError:
         print("Some input could not be converted to a number!")
