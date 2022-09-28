@@ -9,7 +9,7 @@ while True:
         sorted_number = sorted(numbers)
         #find the number of elements
         length = len(numbers)
-        print(sorted_number)
+        #print(sorted_number)
         #check if number of elements is even or odd
         if length %2 == 0: #it is even number of elements
             median = (sorted_number[length //2 - 1] + sorted_number[length // 2 ]) /2
