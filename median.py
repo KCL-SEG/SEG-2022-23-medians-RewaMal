@@ -2,7 +2,7 @@
 """ENTER YOUR SOLUTION HERE!"""
 
 while True:
-     try:
+    try:
         print("Enter a list of numbers separated by commas: ")
         numbers = [float(value) for value in input().split(",")]
         #sort the list
